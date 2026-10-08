@@ -12,8 +12,8 @@ const ThemeContext = createContext<ThemeContextValue | null>(null)
 function getInitialTheme(): Theme {
   const stored = localStorage.getItem('wedding-theme') as Theme | null
   if (stored === 'light' || stored === 'dark') return stored
+  // Always default to light regardless of OS preference
   return 'light'
-  //return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'
 }
 
 export function ThemeProvider({ children }: { children: ReactNode }) {

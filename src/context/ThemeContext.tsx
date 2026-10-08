@@ -12,7 +12,7 @@ const ThemeContext = createContext<ThemeContextValue | null>(null)
 function getInitialTheme(): Theme {
   const stored = localStorage.getItem('wedding-theme') as Theme | null
   if (stored === 'light' || stored === 'dark') return stored
-  return 'dark'
+  return 'light'
   //return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'
 }
 

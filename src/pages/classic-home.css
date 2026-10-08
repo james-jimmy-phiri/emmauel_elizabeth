@@ -695,6 +695,10 @@
 
 .classic-rsvp-card__actions a {
   flex: 1;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
   text-align: center;
   padding: 12px;
   font-size: 10px;

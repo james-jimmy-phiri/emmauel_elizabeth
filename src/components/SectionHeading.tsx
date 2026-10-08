@@ -17,8 +17,8 @@ export default function SectionHeading({
 }: SectionHeadingProps) {
   return (
     <div className={`section-heading section-heading--${align}${light ? ' section-heading--light' : ''}`}>
-      <span className="section-heading__eyebrow">{eyebrow}</span>
-      <FloralDecor />
+      {/* <span className="section-heading__eyebrow">{eyebrow}</span> */}
+      {/* <FloralDecor /> */}
       <h2 className="section-heading__title">{title}</h2>
       {subtitle && <p className="section-heading__subtitle">{subtitle}</p>}
     </div>

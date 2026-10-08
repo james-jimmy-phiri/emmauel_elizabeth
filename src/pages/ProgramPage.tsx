@@ -29,42 +29,42 @@ const PROGRAM_EVENTS = [
   {
     time: '11:30 AM',
     title: 'Departure to Reception',
-    location: 'En Route to CeeBex Events Garden',
+    location: 'En Route to Mchinji TTC hall',
     description: 'A brief journey to our reception venue where the celebration continues.',
     side: 'right' as const,
   },
   {
     time: '01:00 PM',
     title: 'Reception Begins',
-    location: 'CeeBex Events Garden',
+    location: 'Mchinji TTC hall',
     description: 'Grand entrance of the newlyweds, followed by warm welcomes and opening remarks.',
     side: 'left' as const,
   },
   {
     time: '02:00 PM',
     title: 'Lunch & Celebrations',
-    location: 'CeeBex Events Garden',
+    location: 'Mchinji TTC hall',
     description: 'A delightful feast shared with loved ones, accompanied by toasts and tributes.',
     side: 'right' as const,
   },
   {
     time: '04:00 PM',
     title: 'Cake Cutting',
-    location: 'CeeBex Events Garden',
+    location: 'Mchinji TTC hall',
     description: 'A sweet tradition marking the beginning of our shared life together.',
     side: 'left' as const,
   },
   {
     time: '05:00 PM',
     title: 'Dancing & Entertainment',
-    location: 'CeeBex Events Garden',
+    location: 'Mchinji TTC hall',
     description: 'Music, dance, and merriment as we celebrate into the evening hours.',
     side: 'right' as const,
   },
   {
     time: '08:00 PM',
     title: 'Send-Off',
-    location: 'CeeBex Events Garden',
+    location: 'Mchinji TTC hall',
     description: 'With grateful hearts, we bid farewell as we embark on our new journey together.',
     side: 'left' as const,
   },
@@ -98,7 +98,7 @@ export default function ProgramPage() {
             <div className="schedule-event-block">
               <p className="schedule-event-block__time">01:00 PM</p>
               <h3 className="schedule-event-block__title">Reception</h3>
-              <p className="schedule-event-block__venue">CeeBex Events Garden</p>
+              <p className="schedule-event-block__venue">Mchinji TTC hall</p>
               <p className="schedule-event-block__note">Dinner, dancing, and heartfelt celebrations with loved ones.</p>
             </div>
           </div>

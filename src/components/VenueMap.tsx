@@ -62,7 +62,7 @@ export default function VenueMap({ name, query, time, label, description }: Venu
           href={mapsDirectionsUrl(query)}
           target="_blank"
           rel="noopener noreferrer"
-          className="btn btn--gold venue-map__btn"
+          className="btn btn--mauve venue-map__btn"
         >
           Get Directions
         </a>
@@ -80,8 +80,8 @@ export const VENUES = {
     description: 'The sacred ceremony where Emmanuel and Elizabeth exchange their vows.',
   },
   reception: {
-    name: 'CeeBex Events Garden',
-    query: 'CeeBex Events Garden, Malawi',
+    name: 'Mchinji TTC hall',
+    query: 'Mchinji TTC hall, Mchinji, Malawi',
     time: '01:00 PM',
     label: 'Reception',
     description: 'An afternoon of celebration, feasting, and dancing under the open sky.',

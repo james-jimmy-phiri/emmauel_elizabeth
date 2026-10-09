@@ -50,14 +50,14 @@ function useCountdown() {
 
 const TIMELINE = [
   {
-    time: '08:00 AM',
+    time: '08:30 AM',
     title: 'Officiation Ceremony',
     desc: 'The sacred moment when Emmanuel and Elizabeth exchange their vows before God and loved ones at Mchinji Bible Believers Church.',
   },
   {
     time: '01:00 PM',
     title: 'Wedding Reception',
-    desc: 'A joyful afternoon of celebration, music, feasting and dancing with family and friends at Mchinji TTC hall.',
+    desc: 'A joyful afternoon of celebration, music, feasting and dancing with family and friends at Ceebex Event Garden.',
   },
 ]
 
@@ -114,14 +114,14 @@ export default function ClassicHomePage() {
               </div>
               <p className="classic-detail-card__label">Ceremony</p>
               <h3 className="classic-detail-card__venue">Mchinji Bible Believers Church</h3>
-              <p className="classic-detail-card__time">08:00 AM</p>
+              <p className="classic-detail-card__time">08:30 AM</p>
             </div>
             <div className="classic-detail-card">
               <div className="classic-detail-card__icon">
                 <span className="material-symbols-outlined">celebration</span>
               </div>
               <p className="classic-detail-card__label">Reception</p>
-              <h3 className="classic-detail-card__venue">Mchinji TTC hall</h3>
+              <h3 className="classic-detail-card__venue">Ceebex Event Garden</h3>
               <p className="classic-detail-card__time">01:00 PM</p>
             </div>
           </div>
@@ -333,7 +333,7 @@ export default function ClassicHomePage() {
         <p className="classic-footer__title">The Wedding of Emmanuel &amp; Elizabeth</p>
         <p className="classic-footer__date">31 · October · 2026</p>
         <p className="classic-footer__venues">
-          Mchinji Bible Believers Church · Mchinji TTC hall
+          Mchinji Bible Believers Church · Ceebex Event Garden
         </p>
         <p className="classic-footer__credit">
           With love, Emmanuel &amp; Elizabeth © 2026

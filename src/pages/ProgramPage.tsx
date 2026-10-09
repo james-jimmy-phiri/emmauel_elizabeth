@@ -6,67 +6,88 @@ import coupleImage from '../assets/homepage.jpeg'
 
 const PROGRAM_EVENTS = [
   {
-    time: '07:00 AM',
-    title: 'Guest Arrival',
-    location: 'Mchinji Bible Believers Church',
-    description: 'Guests are welcomed and seated as we prepare for the sacred ceremony ahead.',
+    time: '05:00 AM',
+    title: 'Morning Photoshoot (Boys)',
+    location: '',
+    description: 'Preparation and morning photos for the groom and groomsmen.',
     side: 'left' as const,
   },
   {
-    time: '08:00 AM',
-    title: 'Wedding Officiation',
-    location: 'Mchinji Bible Believers Church',
-    description: 'The solemn and joyful exchange of vows before God, family, and dear friends.',
+    time: '06:00 AM',
+    title: 'Morning Photoshoot (Girls)',
+    location: '',
+    description: 'Preparation and morning photos for the bride and bridesmaids.',
     side: 'right' as const,
   },
   {
-    time: '09:30 AM',
-    title: 'Photo Session',
-    location: 'Church Grounds',
-    description: 'Capturing precious moments with family, bridal party, and the newlyweds.',
+    time: '08:00 AM',
+    title: 'Pickup from Lodge',
+    location: 'Lodge',
+    description: 'The bridal and groom\'s teams are picked up from the lodge.',
     side: 'left' as const,
   },
   {
+    time: '08:15 AM',
+    title: 'Processional',
+    location: 'Mchinji Bible Believers Church',
+    description: 'Bridal and grooms’ teams, then the groom, and finally the bride make their entrance.',
+    side: 'right' as const,
+  },
+  {
+    time: '08:30 AM',
+    title: 'Officiation',
+    location: 'Mchinji Bible Believers Church',
+    description: 'The sacred union ceremony where vows will be exchanged.',
+    side: 'left' as const,
+  },
+  {
+    time: '11:15 AM',
+    title: 'Photo Session',
+    location: 'Church Grounds',
+    description: 'Capturing precious moments with family, bridal party, and the newlyweds.',
+    side: 'right' as const,
+  },
+  {
     time: '11:30 AM',
-    title: 'Departure to Reception',
-    location: 'En Route to Mchinji TTC hall',
-    description: 'A brief journey to our reception venue where the celebration continues.',
+    title: 'Lunch Served for All Guests',
+    location: 'Ceebex Event Garden',
+    description: 'A delightful feast shared with all our loved ones.',
+    side: 'left' as const,
+  },
+  {
+    time: '12:15 PM',
+    title: 'Lunch for Bride, Groom & Teams',
+    location: 'Ceebex Event Garden',
+    description: 'A special meal for the newlyweds and their teams before the reception.',
     side: 'right' as const,
   },
   {
     time: '01:00 PM',
-    title: 'Reception Begins',
-    location: 'Mchinji TTC hall',
-    description: 'Grand entrance of the newlyweds, followed by warm welcomes and opening remarks.',
+    title: 'Reception Procession',
+    location: 'Ceebex Event Garden',
+    description: 'Grand entrance of the newlyweds to the reception venue.',
     side: 'left' as const,
   },
   {
-    time: '02:00 PM',
-    title: 'Lunch & Celebrations',
-    location: 'Mchinji TTC hall',
-    description: 'A delightful feast shared with loved ones, accompanied by toasts and tributes.',
+    time: '01:15 PM',
+    title: "MC's Programme",
+    location: 'Ceebex Event Garden',
+    description: 'Speeches, dances, and joyous celebrations guided by the MC.',
     side: 'right' as const,
   },
   {
-    time: '04:00 PM',
-    title: 'Cake Cutting',
-    location: 'Mchinji TTC hall',
+    time: '03:45 PM',
+    title: 'Cake Cutting & Activities',
+    location: 'Ceebex Event Garden',
     description: 'A sweet tradition marking the beginning of our shared life together.',
     side: 'left' as const,
   },
   {
-    time: '05:00 PM',
-    title: 'Dancing & Entertainment',
-    location: 'Mchinji TTC hall',
-    description: 'Music, dance, and merriment as we celebrate into the evening hours.',
+    time: '04:30 PM',
+    title: 'Closing',
+    location: 'Ceebex Event Garden',
+    description: 'With grateful hearts, we conclude our wedding celebration by 5:00 PM.',
     side: 'right' as const,
-  },
-  {
-    time: '08:00 PM',
-    title: 'Send-Off',
-    location: 'Mchinji TTC hall',
-    description: 'With grateful hearts, we bid farewell as we embark on our new journey together.',
-    side: 'left' as const,
   },
 ]
 
@@ -90,7 +111,7 @@ export default function ProgramPage() {
           </div>
           <div className="schedule-intro__events">
             <div className="schedule-event-block">
-              <p className="schedule-event-block__time">08:00 AM</p>
+              <p className="schedule-event-block__time">08:30 AM</p>
               <h3 className="schedule-event-block__title">Officiation</h3>
               <p className="schedule-event-block__venue">Mchinji Bible Believers Church</p>
               <p className="schedule-event-block__note">The sacred union ceremony where vows will be exchanged.</p>
@@ -98,7 +119,7 @@ export default function ProgramPage() {
             <div className="schedule-event-block">
               <p className="schedule-event-block__time">01:00 PM</p>
               <h3 className="schedule-event-block__title">Reception</h3>
-              <p className="schedule-event-block__venue">Mchinji TTC hall</p>
+              <p className="schedule-event-block__venue">Ceebex Event Garden</p>
               <p className="schedule-event-block__note">Dinner, dancing, and heartfelt celebrations with loved ones.</p>
             </div>
           </div>

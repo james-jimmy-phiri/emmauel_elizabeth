@@ -75,13 +75,13 @@ export const VENUES = {
   church: {
     name: 'Mchinji Bible Believers Church',
     query: 'Mchinji Bible Believers Church, Mchinji, Malawi',
-    time: '08:00 AM',
+    time: '08:30 AM',
     label: 'Officiation',
     description: 'The sacred ceremony where Emmanuel and Elizabeth exchange their vows.',
   },
   reception: {
-    name: 'Mchinji TTC hall',
-    query: 'Mchinji TTC hall, Mchinji, Malawi',
+    name: 'Ceebex Event Garden',
+    query: 'Ceebex Event Garden, Mchinji, Malawi',
     time: '01:00 PM',
     label: 'Reception',
     description: 'An afternoon of celebration, feasting, and dancing under the open sky.',
